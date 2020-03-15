@@ -3,13 +3,12 @@
 set -e
 
 lb config noauto \
-        --mode debian \
-        --architectures amd64 \
-        --debian-installer live \
-        --debian-installer-gui true \
-        --archive-areas "main contrib non-free" \
-        --apt-indices false \
-	--security true \
+	--architectures amd64 \
 	--binary-images iso-hybrid \
-        "${@}"
-
+	--mode debian \
+	--debian-installer live \
+	--debian-installer-gui true \
+	--archive-areas "main contrib non-free" \
+	--apt-indices false \
+	--security true \
+	"${@}"
