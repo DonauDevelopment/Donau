@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+#Cinnamon Setup
+# Update theme
+gsettings set org.cinnamon.desktop.background picture-uri 'file:///usr/share/backgrounds/gnome/Godafoss_Iceland.jpg'
+gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Crunchy'
+gsettings set org.cinnamon.desktop.interface gtk-theme 'Adwaita-dark'
+gsettings set org.cinnamon.theme name 'Ambiance-Crunchy'
