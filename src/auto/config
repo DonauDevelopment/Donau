@@ -6,6 +6,7 @@ lb config noauto \
 	--architectures amd64 \
 	--binary-images iso-hybrid \
 	--mode debian \
+	--distribution stretch \
 	--debian-installer live \
 	--debian-installer-gui true \
 	--archive-areas "main contrib non-free" \
