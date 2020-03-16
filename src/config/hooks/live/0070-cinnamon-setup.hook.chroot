@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+# Update theme
+gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Crunchy' | tee /usr/step1.txt
+gsettings set org.cinnamon.desktop.interface gtk-theme 'Adwaita-dark' | tee /usr/step2.txt
+gsettings set org.cinnamon.theme name 'Ambiance-Crunchy' | tee /usr/step3.txt
