@@ -11,4 +11,5 @@ lb config noauto \
 	--debian-installer-gui true \
 	--archive-areas "main contrib non-free" \
 	--apt-indices false \
+	--security false \
 	"${@}"

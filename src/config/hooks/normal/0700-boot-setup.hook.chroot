@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+#Update Plymouth Configuration
+plymouth-set-default-theme -R spinner
+
+#Update GRUB2 Configuration
+sed -i 's/echo Debian/echo Donau Lotus/1' /etc/default/grub
+sed -i 's/quiet/quiet splash/1' /etc/default/grub
+update-grub
