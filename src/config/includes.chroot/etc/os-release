@@ -1,0 +1,9 @@
+PRETTY_NAME="Donau Lotus 1.0b Beta"
+NAME="Donau Lotus 1.0b"
+VERSION_ID="1.0b"
+VERSION="1.0b Beta"
+VERSION_CODENAME=lotus
+ID=donau
+HOME_URL="http://www.donau-os.com/"
+SUPPORT_URL="http://www.donau-os.com/github"
+BUG_REPORT_URL="http://www.donau-os.com/github"
