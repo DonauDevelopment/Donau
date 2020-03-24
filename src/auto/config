@@ -12,4 +12,7 @@ lb config noauto \
 	--archive-areas "main contrib non-free" \
 	--apt-indices false \
 	--security false \
+	--iso-application "Donau Lotus 1.0b" \
+	--iso-publisher "The Donau Team, Spring 2020" \
+	--iso-volume "Donau Lotus 1.0b" \
 	"${@}"
