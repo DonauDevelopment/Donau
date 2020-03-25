@@ -9,9 +9,9 @@ lb config noauto \
 	--distribution stretch \
 	--debian-installer live \
 	--debian-installer-gui true \
-	--archive-areas "main contrib non-free" \
-	--apt-indices false \
-	--security false \
+	--archive-areas "main" \
+	--apt-indices true \
+	--checksums md5 \
 	--iso-application "Donau Lotus 1.0b" \
 	--iso-publisher "The Donau Team, Spring 2020" \
 	--iso-volume "Donau Lotus 1.0b" \
